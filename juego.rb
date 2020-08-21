@@ -1,7 +1,7 @@
 def warning(i=ARGV.length)
     if i != 0
         puts "TIP: No es necesario ingresar ningún argumento.\n\n"
-        puts "Inténtalo de nuevo.\n\n"
+        puts "Inténtalo de nuevo."
         exit
     end
 end
