@@ -23,7 +23,7 @@ end
 def get_input(play_num)
     player_input = gets.chomp
     opt = ["1", "2", "3", "4"]
-    while opt.index(player_input) == nil
+    while opt.index(player_input) == nil do
         puts "\n| Opción no válida X |\n\n"
         bienvenida(play_num)
         player_input = gets.chomp
